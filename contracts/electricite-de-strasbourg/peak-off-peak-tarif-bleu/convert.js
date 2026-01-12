@@ -92,7 +92,7 @@ function processPeakOffPeakOptions() {
 
       // Create off-peak price object
       const offPeakPriceObject = {
-        contract: "es-bleu-peak-off-peak",
+        contract: "peak-off-peak",
         price_type: "consumption",
         currency: "euro",
         start_date: startDateIso,
@@ -104,7 +104,7 @@ function processPeakOffPeakOptions() {
 
       // Create peak price object
       const peakPriceObject = {
-        contract: "es-bleu-peak-off-peak",
+        contract: "peak-off-peak",
         price_type: "consumption",
         currency: "euro",
         start_date: startDateIso,
@@ -116,7 +116,7 @@ function processPeakOffPeakOptions() {
 
       // Create subscription price object
       const subscriptionPriceObject = {
-        contract: "es-bleu-peak-off-peak",
+        contract: "peak-off-peak",
         price_type: "subscription",
         currency: "euro",
         start_date: startDateIso,

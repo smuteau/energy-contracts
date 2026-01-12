@@ -77,7 +77,7 @@ function processBaseOptions() {
 
       // Create consumption price object
       const consumptionPriceObject = {
-        contract: "es-bleu-base",
+        contract: "base",
         price_type: "consumption",
         currency: "euro",
         start_date: startDateIso,
@@ -89,7 +89,7 @@ function processBaseOptions() {
 
       // Create subscription price object
       const subscriptionPriceObject = {
-        contract: "es-bleu-base",
+        contract: "base",
         price_type: "subscription",
         currency: "euro",
         start_date: startDateIso,
