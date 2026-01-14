@@ -149,7 +149,7 @@ function processTempoOptions() {
       const priceObjects = [
         // Blue day prices
         {
-          contract: "tempo",
+          contract: "edf-tempo",
           price_type: "consumption",
           currency: "euro",
           start_date: startDateIso,
@@ -159,7 +159,7 @@ function processTempoOptions() {
           day_type: "blue",
         },
         {
-          contract: "tempo",
+          contract: "edf-tempo",
           price_type: "consumption",
           currency: "euro",
           start_date: startDateIso,
@@ -170,7 +170,7 @@ function processTempoOptions() {
         },
         // White day prices
         {
-          contract: "tempo",
+          contract: "edf-tempo",
           price_type: "consumption",
           currency: "euro",
           start_date: startDateIso,
@@ -180,7 +180,7 @@ function processTempoOptions() {
           day_type: "white",
         },
         {
-          contract: "tempo",
+          contract: "edf-tempo",
           price_type: "consumption",
           currency: "euro",
           start_date: startDateIso,
@@ -191,7 +191,7 @@ function processTempoOptions() {
         },
         // Red day prices
         {
-          contract: "tempo",
+          contract: "edf-tempo",
           price_type: "consumption",
           currency: "euro",
           start_date: startDateIso,
@@ -201,7 +201,7 @@ function processTempoOptions() {
           day_type: "red",
         },
         {
-          contract: "tempo",
+          contract: "edf-tempo",
           price_type: "consumption",
           currency: "euro",
           start_date: startDateIso,
@@ -212,7 +212,7 @@ function processTempoOptions() {
         },
         // Subscription price
         {
-          contract: "es-tempo",
+          contract: "edf-tempo",
           price_type: "subscription",
           currency: "euro",
           start_date: startDateIso,
