@@ -50,10 +50,18 @@ The project uses a modular structure where each contract type has its own `conve
 
 To add a new contract type:
 
-1. Create a new directory under `contracts/`
-2. Add your CSV data file
-3. Create a `convert.js` file that exports a function returning the processed data
-4. The main process will automatically include it
+1. Create new directory under `contracts/`, this directory should have your provider name (i.e. `electricite-de-strasbourg`)
+2. Create new subfolder with contract's name (i.e. `tarif-bleu`) followed by the period name (i.e. `base`, `peak-off-peak`, `tempo`), results should be like: `tarif-bleu-base` or `tarif-bleu-peak-off-peak`or `tarif-bleu-tempo`. It is important to have the right ending for good translation in Gladys
+3. Add your CSV data file or json data file (based on the other contracts)
+4. Create a `convert.js` file that exports a function returning the processed data
+5. The main process will automatically include it
+
+Folders' hierarchy to follow:
++-- contracts
+  +-- new-provider
+    +-- new-tariff-base
+    +-- new-tariff-peak-of-peak
+    +-- new-tariff-tempo
 
 ## Contributing
 
